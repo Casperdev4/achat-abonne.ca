@@ -265,7 +265,7 @@ img {
 }
 
 .hero {
-    padding: 200px 0 120px;
+    padding: 160px 0 120px;
     background: radial-gradient(ellipse at 20% 50%, rgba(255, 0, 0, 0.04) 0%, transparent 50%),
                 radial-gradient(ellipse at 80% 50%, rgba(255, 68, 68, 0.03) 0%, transparent 50%),
                 var(--white);

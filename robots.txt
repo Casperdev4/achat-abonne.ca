@@ -1,8 +1,4 @@
-
 User-agent: *
 Allow: /
-
-Disallow: /*.json$
-Disallow: /logo/
 
 Sitemap: https://achat-abonne.ca/sitemap.xml

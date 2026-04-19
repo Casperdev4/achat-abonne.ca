@@ -21,23 +21,27 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Achat Abonne YouTube",
-        "url": "https://achat-abonne.ca",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Page introuvable",
-                        "url": "https://achat-abonne.ca/404.html"
-                    }
+        "@graph": [
+            {
+                "@type": "Organization",
+                "name": "Achat Abonne YouTube",
+                "url": "https://achat-abonne.ca",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "page introuvable",
+                                "url": "https://achat-abonne.ca/404.html"
+                            }
+                        }
+                    ]
                 }
-            ]
-        }
+            }
+        ]
     }
     </script>
 </head>

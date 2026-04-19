@@ -30,84 +30,148 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Ces heures sont-elles prises en compte pour la monetisation ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, la totalite des heures de visionnage que nous livrons sont reconnues par YouTube et contribuent directement a franchir le cap des 4000 heures exige par le Programme Partenaire YouTube. Service disponible pour les createurs au Canada et au Quebec."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Ces heures sont-elles prises en compte pour la monetisation ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, la totalite des heures de visionnage que nous livrons sont reconnues par YouTube et contribuent directement a franchir le cap des 4000 heures exige par le Programme Partenaire YouTube. Service disponible pour les createurs au Canada et au Quebec."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "En combien de temps les heures sont-elles livrees ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "L'expedition debute dans les 24 heures suivant votre commande. La duree totale depend de la formule retenue, allant de 3 jours pour 1000 heures a 10 jours pour 4000 heures de visionnage."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Y a-t-il un danger pour ma chaine YouTube ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Aucunement. Nos heures de visionnage proviennent d'utilisateurs authentiques. Notre methode est integralement conforme aux regles de YouTube. Votre chaine demeure en toute securite."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quel nombre d'heures est requis pour la monetisation ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "YouTube requiert 4000 heures de visionnage public au cours des 12 derniers mois, en plus d'un minimum de 1000 abonnes, pour acceder au Programme Partenaire YouTube et debloquer la monetisation."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Heures de Visionnage YouTube au Canada",
+                "description": "Obtenez des heures de visionnage YouTube au Canada et au Quebec pour franchir le cap de la monetisation. 4000 heures de visionnage requises pour le Programme Partenaire. Visionnage authentique, expedition rapide et securisee.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Achat-Abonne.ca"
+                },
+                "image": "https://achat-abonne.ca/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "CAD",
+                    "lowPrice": "69",
+                    "highPrice": "249",
+                    "offerCount": "4",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "En combien de temps les heures sont-elles livrees ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "L'expedition debute dans les 24 heures suivant votre commande. La duree totale depend de la formule retenue, allant de 3 jours pour 1000 heures a 10 jours pour 4000 heures de visionnage."
+                "@type": "Organization",
+                "name": "Achat Abonne YouTube",
+                "url": "https://achat-abonne.ca",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter heures visionnage youtube",
+                                "url": "https://achat-abonne.ca/acheter-heures-visionnage-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Y a-t-il un danger pour ma chaine YouTube ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Aucunement. Nos heures de visionnage proviennent d'utilisateurs authentiques. Notre methode est integralement conforme aux regles de YouTube. Votre chaine demeure en toute securite."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Quel nombre d'heures est requis pour la monetisation ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "YouTube requiert 4000 heures de visionnage public au cours des 12 derniers mois, en plus d'un minimum de 1000 abonnes, pour acceder au Programme Partenaire YouTube et debloquer la monetisation."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "1 000 Heures",
+                            "description": "Pack 1 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "69",
+                                "priceCurrency": "CAD"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "2 000 Heures",
+                            "description": "Pack 2 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "129",
+                                "priceCurrency": "CAD"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "3 000 Heures",
+                            "description": "Pack 3 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "189",
+                                "priceCurrency": "CAD"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@type": "Product",
+                            "name": "4 000 Heures",
+                            "description": "Pack 4 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "249",
+                                "priceCurrency": "CAD"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Heures de Visionnage YouTube au Canada",
-        "description": "Obtenez des heures de visionnage YouTube au Canada et au Quebec pour franchir le cap de la monetisation. 4000 heures de visionnage requises pour le Programme Partenaire. Visionnage authentique, expedition rapide et securisee.",
-        "brand": {
-            "@type": "Brand",
-            "name": "Achat-Abonne.ca"
-        },
-        "image": "https://achat-abonne.ca/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "CAD",
-            "lowPrice": "69",
-            "highPrice": "249",
-            "offerCount": "4",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Achat Abonne YouTube",
-        "url": "https://achat-abonne.ca",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acheter Heures Visionnage YouTube",
-                        "url": "https://achat-abonne.ca/acheter-heures-visionnage-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>

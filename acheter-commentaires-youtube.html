@@ -30,84 +30,133 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Puis-je choisir le contenu des commentaires ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolument. Chaque commentaire est entierement sur mesure. Vous nous transmettez les messages souhaites et nous les diffusons sous votre video. Vous conservez un controle integral sur le contenu publie. Service disponible pour les createurs YouTube au Canada et au Quebec."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Puis-je choisir le contenu des commentaires ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolument. Chaque commentaire est entierement sur mesure. Vous nous transmettez les messages souhaites et nous les diffusons sous votre video. Vous conservez un controle integral sur le contenu publie. Service disponible pour les createurs YouTube au Canada et au Quebec."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "En combien de temps les commentaires apparaissent-ils ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "L'expedition debute dans un delai de 12 a 24 heures suivant votre commande. La duree totale varie selon la quantite commandee, allant de 12h pour 5 commentaires jusqu'a 6 jours pour 100 commentaires."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Y a-t-il un danger pour ma chaine YouTube ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Aucunement. Nos commentaires proviennent de comptes verifies et actifs. Notre approche est naturelle et securitaire pour votre chaine YouTube. Aucune penalite n'est envisageable."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les commentaires sont-ils permanents ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, les commentaires demeurent visibles de facon permanente sous votre video. Etant diffuses par des comptes authentiques et actifs, leur perennite est assuree dans le temps."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Commentaires YouTube au Canada",
+                "description": "Obtenez des commentaires YouTube sur mesure 100% authentiques au Canada et au Quebec. Commentaires de qualite superieure pour vos videos, expedition rapide et securisee. A partir de 47 dollars les 100 commentaires.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Achat-Abonne.ca"
+                },
+                "image": "https://achat-abonne.ca/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "CAD",
+                    "lowPrice": "47",
+                    "highPrice": "245",
+                    "offerCount": "3",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "En combien de temps les commentaires apparaissent-ils ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "L'expedition debute dans un delai de 12 a 24 heures suivant votre commande. La duree totale varie selon la quantite commandee, allant de 12h pour 5 commentaires jusqu'a 6 jours pour 100 commentaires."
+                "@type": "Organization",
+                "name": "Achat Abonne YouTube",
+                "url": "https://achat-abonne.ca",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter commentaires youtube",
+                                "url": "https://achat-abonne.ca/acheter-commentaires-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Y a-t-il un danger pour ma chaine YouTube ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Aucunement. Nos commentaires proviennent de comptes verifies et actifs. Notre approche est naturelle et securitaire pour votre chaine YouTube. Aucune penalite n'est envisageable."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les commentaires sont-ils permanents ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, les commentaires demeurent visibles de facon permanente sous votre video. Etant diffuses par des comptes authentiques et actifs, leur perennite est assuree dans le temps."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Commentaires",
+                            "description": "Pack 100 Commentaires.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "47",
+                                "priceCurrency": "CAD"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "300 Commentaires",
+                            "description": "Pack 300 Commentaires.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "98",
+                                "priceCurrency": "CAD"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "500 Commentaires",
+                            "description": "Pack 500 Commentaires.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "245",
+                                "priceCurrency": "CAD"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Commentaires YouTube au Canada",
-        "description": "Obtenez des commentaires YouTube sur mesure 100% authentiques au Canada et au Quebec. Commentaires de qualite superieure pour vos videos, expedition rapide et securisee. A partir de 47 dollars les 100 commentaires.",
-        "brand": {
-            "@type": "Brand",
-            "name": "Achat-Abonne.ca"
-        },
-        "image": "https://achat-abonne.ca/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "CAD",
-            "lowPrice": "47",
-            "highPrice": "245",
-            "offerCount": "3",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Achat Abonne YouTube",
-        "url": "https://achat-abonne.ca",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acheter Commentaires YouTube",
-                        "url": "https://achat-abonne.ca/acheter-commentaires-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>
